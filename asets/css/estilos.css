@@ -1,6 +1,7 @@
 
 @import "./button-icon.css";
 @import "./header.css";
+@import "./hero.css";
 
 
 
@@ -30,7 +31,7 @@ body{
     background: var(--gradient);
     min-block-size: 100vh;
     font: var(--body1);
-    color: var(--green);
+    color: var(--purple);
 
 }
  
@@ -39,7 +40,8 @@ body{
     background: var(--purple);
     color:var(--white);
     font:var(--button);
-
+    text-decoration: none;
+    text-align: center;
     padding-inline-start: 24px;
     padding-inline-end: 24px;
     padding-block-start: 13px;
