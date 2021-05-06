@@ -29,3 +29,29 @@
     display: block;
 
 }
+
+@media screen and (min-width:768px) {
+
+
+
+    .hero{
+        display: flex;
+        gap: 50px;
+    }
+    .contenedor-description{
+        order: 1;
+        max-inline-size: 450px;
+
+       
+    }
+    .contenedor-imagen img{
+        inline-size: 400px;
+        block-size: 500px;
+    }
+   .contenedor-imagen{
+       order: 2;
+       flex:1;
+       text-align: end;
+      
+   }
+}
