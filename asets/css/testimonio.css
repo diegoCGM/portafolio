@@ -1,0 +1,54 @@
+
+
+
+
+.textimony{
+    margin-top: 60px;
+  
+   
+}
+
+.textimony-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.textimonio-titulo{
+background:var(--purple);
+align-self: flex-start;
+color: var(--white);
+font: var(--headline5);
+
+padding-inline-start: 8px;
+padding-inline-end: 8px;
+padding-block-start: 4px;
+padding-block-end: 4px;
+box-shadow: -4px 4px 0 var(--white) ;
+}
+
+.textimony-imagen 
+img{
+  max-inline-size: 100%;
+
+}
+
+@media screen and (min-width:768px) {
+    .textimony{
+        display: flex;
+        align-items: center;
+        padding-block-start: 80px;
+        padding-block-end: 80px;
+    }
+    .textimony-description{
+        flex: 1;
+    }
+
+    .textimony-imagen{
+        flex: 1;
+    }
+    .textimony:nth-child(odd) .textimony-imagen{
+      order:2;
+       
+    }
+}
