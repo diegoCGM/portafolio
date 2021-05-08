@@ -10,23 +10,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-   
-<div class="wrapper">
 
+    
     <header class="header">
-        <img src="./asets/imagenes/LOGO.png" alt="logo" width="70" height="20" >
-        <nav class="menu">
-            <ul>
-                <li><a  class="is-active"
-                    href="#main">Hola</a></li>
-                
-                <li><a href="#proyect">Proyectos</a></li>
-                <li><a href="#contact">Hablemos</a></li>
-            </ul>
-        </nav> 
-        <button class="button">Curriculum</button>
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./asets/imagenes/LOGO.png" alt="logo" width="70" height="20" >
+                <nav class="menu">
+                    <ul>
+                        <li><a  class="is-active"
+                            href="#main">Hola</a></li>
+                        
+                        <li><a href="#proyect">Proyectos</a></li>
+                        <li><a href="#contact">Hablemos</a></li>
+                    </ul>
+                </nav> 
+                <button class="button">Curriculum</button>
+            </div>
+            
+        </div>
+        
         
     </header>
+<div class="wrapper">
+
+    
  
     <section id="main" class="hero">
 
@@ -40,7 +48,12 @@
         <span>Soy Diego </span>
     </h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In vel quaerat nobis rem accusantium ipsa, tempore excepturi enim corporis? Impedit sequi minus optio sed aut qui praesentium nihil quisquam. Quae.</p>
+    <p>Soy estudiante de ingenieria en el area de las  tecnologias de la informacion y comunicacion 
+
+        Me apaciona la programacion 
+        encontre mi camino en el front-end y desde el incio de mi carrera he estado en constante aprendisaje por esta rama de la programacion 
+
+    </p>
 
          <div class="social">
             <a class="button-icon" href="tel:5576835423" ><img src="./asets/svg/phone-alt-solid.svg" alt="pone" ></a>
@@ -89,7 +102,7 @@
      </div>
 
 
-     <div class="textimony">
+     <div class="textimony" id="proyect">
         <div class="textimony-imagen">
             <img src="./asets/imagenes/imagenmedidas.png" alt="proyecto1">
         </div>
@@ -142,6 +155,27 @@
 
        
      </div>
+
+     <form action="" method="GET" class="formulario" id="contact">
+         <h2 class="textimonio-titulo">Hablemos</h2>
+         <p>Si estas interesado en trabajar conmigo en su proximo proyecto, no dude en ponerse en contacto conmigo </p>
+         <label for="form-name">Nombre completo
+
+            <input name="name"  type="text" id="form-name" placeholder="juan"> 
+         </label>
+           
+           <label for="form-correo">Correo
+            <input required name="name"  type="email" id="form-correo" placeholder="juan">  
+
+           </label>
+           
+           <label for="form-mensaje">Mensaje
+
+            <textarea name="" id="form-mensaje" cols="30" rows="7" placeholder="MENSAJE"></textarea>
+           </label>
+           
+         <button class="button" type="submit">Enviar Mensaje</button>    
+    </form>
 
      <footer class="footer">
         <div class="footer-logo">
