@@ -19,7 +19,7 @@
     .footer{
         display: flex;
         justify-content: space-between;
-        border: 1px solid red ;
+       
         align-items: center;
         padding-block-start: 40px;
         padding-block-end: 40px;
